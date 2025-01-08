@@ -278,7 +278,7 @@ CONFIG_PACKAGE_kmod-usb-net-sr9700=y
 CONFIG_PACKAGE_kmod-usb-ohci=y
 
 CONFIG_PACKAGE_kmod-usb-ohci-pci=y
-CONFIG_PACKAGE_kmod-usb-printer=y
+# CONFIG_PACKAGE_kmod-usb-printer=y
 CONFIG_PACKAGE_kmod-usb-roles=y
 CONFIG_PACKAGE_kmod-usb-serial=y
 CONFIG_PACKAGE_kmod-usb-serial-option=y
