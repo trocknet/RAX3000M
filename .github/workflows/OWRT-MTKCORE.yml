@@ -112,8 +112,9 @@ jobs:
           cd ./owrt
 
           rm -rf ./tmp* ./.config*
-          cat $GITHUB_WORKSPACE/Config/$OWRT_TARGET.txt $GITHUB_WORKSPACE/Config/General.txt >> .config
-
+          #cat $GITHUB_WORKSPACE/Config/$OWRT_TARGET.txt $GITHUB_WORKSPACE/Config/General.txt >> .config
+          cat $GITHUB_WORKSPACE/Config/mtk.txt >> .config
+          
           $GITHUB_WORKSPACE/Scripts/Extras.sh
 
           make defconfig
