@@ -5,12 +5,12 @@
 #git clone --depth=1 --single-branch https://github.com/gngpp/luci-app-design-config.git
 #sed -i 's/dark/light/g' luci-app-design-config/root/etc/config/design
 #Argon Theme
-#git clone --depth=1 --single-branch --branch $(echo $OWRT_URL | grep -iq "lede" && echo "18.06" || echo "master") https://github.com/jerrykuku/luci-theme-argon.git
-#git clone --depth=1 --single-branch --branch $(echo $OWRT_URL | grep -iq "lede" && echo "18.06" || echo "master") https://github.com/jerrykuku/luci-app-argon-config.git
+git clone --depth=1 --single-branch --branch $(echo $OWRT_URL | grep -iq "lede" && echo "18.06" || echo "master") https://github.com/jerrykuku/luci-theme-argon.git
+git clone --depth=1 --single-branch --branch $(echo $OWRT_URL | grep -iq "lede" && echo "18.06" || echo "master") https://github.com/jerrykuku/luci-app-argon-config.git
 #Linkease
-#git clone --depth=1 --single-branch https://github.com/linkease/istore.git
-#git clone --depth=1 --single-branch https://github.com/linkease/nas-packages.git
-#git clone --depth=1 --single-branch https://github.com/linkease/nas-packages-luci.git
+git clone --depth=1 --single-branch https://github.com/linkease/istore.git
+git clone --depth=1 --single-branch https://github.com/linkease/nas-packages.git
+git clone --depth=1 --single-branch https://github.com/linkease/nas-packages-luci.git
 #Open Clash
 #git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/OpenClash.git
 #Pass Wall
