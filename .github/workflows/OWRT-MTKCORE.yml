@@ -77,7 +77,7 @@ jobs:
 
       - name: Clone OWRT Code
         run: |
-          git clone $OWRT_URL ./owrt
+          git clone -b openwrt-24.10 $OWRT_URL ./owrt
           
       - name: Load custom feeds
         run: |
