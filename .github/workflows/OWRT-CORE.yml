@@ -112,7 +112,7 @@ jobs:
 
           $GITHUB_WORKSPACE/Scripts/Extras.sh
 
-          make defconfig
+          #make defconfig
 
       - name: Cleanup Toolchain
         run: |
