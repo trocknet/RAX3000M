@@ -110,7 +110,7 @@ jobs:
           #cat $GITHUB_WORKSPACE/Config/$OWRT_TARGET.txt $GITHUB_WORKSPACE/Config/General.txt >> .config
           #cat ./defconfig/mt7981-ax3000.config >> .config
           cp -f $GITHUB_WORKSPACE/Config/mt798x.txt .config
-          cat $GITHUB_WORKSPACE/Config/my.txt >> .config
+          #cat $GITHUB_WORKSPACE/Config/my.txt >> .config
 
           $GITHUB_WORKSPACE/Scripts/Extras.sh
 
