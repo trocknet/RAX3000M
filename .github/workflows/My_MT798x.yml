@@ -30,6 +30,6 @@ jobs:
       #默认源码
       #OWRT_URL: https://github.com/trocknet/immortalwrt-mt798x.git
       #OWRT_URL: https://github.com/hanwckf/immortalwrt-mt798x.git
-      #OWRT_URL: https://github.com/padavanonly/immortalwrt-mt798x.git
-      OWRT_URL: https://github.com/trocknet/immortalwrt-mt798x-24.10.git
+      OWRT_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6.git
+      #OWRT_URL: https://github.com/trocknet/immortalwrt-mt798x-24.10.git
       #OWRT_URL: https://github.com/padavanonly/immortalwrt-mt798x-24.10.git
